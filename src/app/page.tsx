@@ -1,10 +1,15 @@
 import Intro from "@/components/intro";
 import Image from "next/image";
 
+let upperMargin = 24;
+
 export default function Home() {
   return (
-    <main>
-      <Intro />
-    </main>
+    <>
+      {/* <div className={`pt-${upperMargin}`}></div> */}
+      <main>
+        <Intro />
+      </main>
+    </>
   );
 }
