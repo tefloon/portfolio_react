@@ -1,10 +1,11 @@
 import Header from "@/components/header";
-import "./globals.css";
+import Blobs from "@/components/blobs";
+import Spacer from "@/components/spacer";
+
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import { links } from "../../lib/data";
-import { motion } from "framer-motion";
-import Blobs from "@/components/blobs";
+
+import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -25,6 +26,7 @@ export default function RootLayout({
       >
         <Header />
         <Blobs />
+        <Spacer />
         {children}
       </body>
     </html>
