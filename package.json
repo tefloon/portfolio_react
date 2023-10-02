@@ -17,6 +17,7 @@
     "react": "latest",
     "react-dom": "latest",
     "react-icons": "^4.11.0",
+    "remark-gfm": "^4.0.0",
     "xdm": "^3.4.0"
   },
   "devDependencies": {
